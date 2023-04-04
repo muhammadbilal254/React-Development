@@ -1,0 +1,16 @@
+# React Notes
+
+## What is JSX
+JSX is a syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file. Although there are other ways to write components, most React developers prefer the conciseness of JSX, and most codebases use it.
+
+### Rules:
+1. return one thing ata time. for multiple element use React Fragments <> </>.
+2. close all tags.
+3. use className in place of class.
+4. use camelCase for all attributes.
+
+
+## Nested Component
+In Nested Component, we called different component in single component
+
+
