@@ -1,24 +1,23 @@
 import React from 'react'
+// import UseState from './hooks/UseState';
+// import UseEffect from './hooks/UseEffect';
+import UseReducer from './hooks/UseReducer';
 
 const App = () => {
   return (
     <>
-      <h1>Hello World  {3 + 3} </h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, dolorem.</p>
-      <img src="" alt="" />
-      
-      <MyName />
+      <UseReducer />
     </>
   )
 }
 
 // Nested Component
-const MyName = () => {
-  return (
-    <>
-      <h1>Muhammad bilal</h1>
-    </>
-  );
-}
+// const MyName = () => {
+//   return (
+//     <>
+//       <h1>Muhammad bilal</h1>
+//     </>
+//   );
+// }
 
 export default App
