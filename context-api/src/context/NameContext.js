@@ -1,6 +1,6 @@
-import{ createContext } from 'react'
+import { createContext } from 'react'
 
 
-const NameContext = createContext("Demo Name") // default name
+const NameContext = createContext("Bilal") // default name
 
 export default NameContext
